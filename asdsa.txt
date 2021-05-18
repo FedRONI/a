@@ -51,13 +51,13 @@ insert into pokupatel values(10, "Samsing", "USA");
 
 create table porodazhi (id int not null primary key, pokupatel int, proizvoditel int,  produkt int, stoimost int, data varchar(100), mesto_vidachi int);
 
-insert into pokupatel values(1, "" , "", "", "", "", "");
-insert into pokupatel values(2, "" , "", "", "", "", "");
-insert into pokupatel values(3, "" , "", "", "", "", "");
-insert into pokupatel values(4, "" , "", "", "", "", "");
-insert into pokupatel values(5, "" , "", "", "", "", "");
-insert into pokupatel values(6, "" , "", "", "", "", "");
-insert into pokupatel values(7, "" , "", "", "", "", "");
-insert into pokupatel values(8, "" , "", "", "", "", "");
-insert into pokupatel values(9, "" , "", "", "", "", "");
-insert into pokupatel values(10, "" , "", "", "", "", "");
+insert into porodazhi values(1, "" , "", "", "", "", "");
+insert into porodazhi values(2, "" , "", "", "", "", "");
+insert into porodazhi values(3, "" , "", "", "", "", "");
+insert into porodazhi values(4, "" , "", "", "", "", "");
+insert into porodazhi values(5, "" , "", "", "", "", "");
+insert into porodazhi values(6, "" , "", "", "", "", "");
+insert into porodazhi values(7, "" , "", "", "", "", "");
+insert into porodazhi values(8, "" , "", "", "", "", "");
+insert into porodazhi values(9, "" , "", "", "", "", "");
+insert into porodazhi values(10, "" , "", "", "", "", "");
