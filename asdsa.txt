@@ -49,7 +49,7 @@ insert into pokupatel values(8, "AOU", "USA");
 insert into pokupatel values(9, "Logigech", "USA");
 insert into pokupatel values(10, "Samsing", "USA");
 
-create table proizvoditel (id int not null primary key, proizvoditel int, pokupatel int, produkt int, stoimost int, data varchar(100), mesto_vidachi int);
+create table porodazhi (id int not null primary key, proizvoditel int, pokupatel int, produkt int, stoimost int, data varchar(100), mesto_vidachi int);
 
 
 
