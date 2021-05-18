@@ -38,16 +38,16 @@ insert into pokupatel values(9, "P.V.Deademov", "71627301849");
 insert into pokupatel values(10, "V.A.Zavyalov", "73391311730");
 
 create table proizvoditel (id int not null primary key, name varchar(100), strana varchar(100));
-insert into pokupatel values(1, "ASUS", "USA");
-insert into pokupatel values(2, "Addle", "USA");
-insert into pokupatel values(3, "Xaimi", "USA");
-insert into pokupatel values(4, Soni", "USA");
-insert into pokupatel values(5, "Warmilla", "USA");
-insert into pokupatel values(6, "Samsing", "USA");
-insert into pokupatel values(7, "Xaimi", "USA");
-insert into pokupatel values(8, "AOU", "USA");
-insert into pokupatel values(9, "Logigech", "USA");
-insert into pokupatel values(10, "Samsing", "USA");
+insert into proizvoditel values(1, "ASUS", "USA");
+insert into proizvoditel values(2, "Addle", "USA");
+insert into proizvoditel values(3, "Xaimi", "China");
+insert into proizvoditel values(4, Soni", "Japan");
+insert into proizvoditel values(5, "VARMILO", "China");
+insert into proizvoditel values(6, "Samsing", "Korea");
+insert into proizvoditel values(7, "Huawei", "China");
+insert into proizvoditel values(8, "AOU", "USA");
+insert into proizvoditel values(9, "Logigech", "USA");
+insert into proizvoditel values(10, "KitchenA", "Russia");
 
 create table porodazhi (id int not null primary key, pokupatel int, proizvoditel int,  produkt int, stoimost int, data varchar(100), mesto_vidachi int);
 
