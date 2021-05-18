@@ -1,0 +1,59 @@
+create database эл_магазин;
+use эл_магазин;
+
+create table prodykti (id int not null primary key, name varchar(100), stoimost int);
+insert into prodykti values(1, "Computer", "70000");
+insert into prodykti values(2, "iPhune", "43999");
+insert into prodykti values(3, "mi band 12",  "6399");
+insert into prodykti values(4, "PlayStachon X", "39000");
+insert into prodykti values(5, "gaming keyboard",, "9000");
+insert into prodykti values(6, "washing machine", "29899");
+insert into prodykti values(7, "robot pilesos", "16000");
+insert into prodykti values(8, "FullHD monitor", "4500");
+insert into prodykti values(9, "gaming mouse g103", "2500");
+insert into prodykti values(10, "Blender", "5000");
+
+create table mesto_vidachi (id int not null primary key, gorod varchar(100), ulitsya varchar(100), nomer_doma int);
+insert into mesto_vidachi values(1, "moskow", "Sibirskaya", "12");
+insert into mesto_vidachi values(2, "perm", "Shosse_kosmonavtov", "43");
+insert into mesto_vidachi values(3, "ekaterinburg", "Nurminskaya", "14");
+insert into mesto_vidachi values(4, "moskow", "Pushkina", "12");
+insert into mesto_vidachi values(5, "chelyabinsk", "Lenina", "16");
+insert into mesto_vidachi values(6, "chelyabinsk", "Lomonosova", "76");
+insert into mesto_vidachi values(7, "sankt-peterburg", "Petrinskaya", "11");
+insert into mesto_vidachi values(8, "novosibirsk", "Stalinskaya", "8");
+insert into mesto_vidachi values(9, "Kazan", "Brezhneva", "19");
+insert into mesto_vidachi values(10, "Samara", "Chernova", "21");
+
+create table pokupatel (id int not null primary key, FIO varchar(100), nomer int);
+insert into pokupatel values(1, "A.K.Lomonosov", "78005553535");
+insert into pokupatel values(2, "A.S.Evgeniev", "77598042816");
+insert into pokupatel values(3, "V.R.Sirov", "77611047038");
+insert into pokupatel values(4, "L.A.Mironova", "75818893741");
+insert into pokupatel values(5, "H. F. Artuev", "79713830001");
+insert into pokupatel values(6, "J.O.Speenov", "71598753575");
+insert into pokupatel values(7, "A.A.Dizoffovna", "75478918489");
+insert into pokupatel values(8, "A.S.Sodin", "72878849340");
+insert into pokupatel values(9, "P.V.Deademov", "71627301849");
+insert into pokupatel values(10, "V.A.Zavyalov", "73391311730");
+
+create table proizvoditel (id int not null primary key, name varchar(100), strana varchar(100));
+insert into pokupatel values(1, "ASUS", "USA");
+insert into pokupatel values(2, "Addle", "USA");
+insert into pokupatel values(3, "Xaimi", "USA");
+insert into pokupatel values(4, Soni", "USA");
+insert into pokupatel values(5, "Warmilla", "USA");
+insert into pokupatel values(6, "Samsing", "USA");
+insert into pokupatel values(7, "Xaimi", "USA");
+insert into pokupatel values(8, "AOU", "USA");
+insert into pokupatel values(9, "Logigech", "USA");
+insert into pokupatel values(10, "Samsing", "USA");
+
+create table proizvoditel (id int not null primary key, proizvoditel int, pokupatel int, produkt int, stoimost int, data varchar(100), mesto_vidachi int);
+
+
+
+
+
+
+
