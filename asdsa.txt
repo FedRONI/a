@@ -1,7 +1,7 @@
 create database эл_магазин;
 use эл_магазин;
 
-create table prodykti (id int not null primary key, name varchar(100), stoimost int);
+create table prodykt (id int not null primary key, name varchar(100), stoimost int);
 insert into prodykti values(1, "Computer", "70000");
 insert into prodykti values(2, "iPhune", "43999");
 insert into prodykti values(3, "mi band 12",  "6399");
@@ -49,15 +49,5 @@ insert into proizvoditel values(8, "AOU", "USA");
 insert into proizvoditel values(9, "Logigech", "USA");
 insert into proizvoditel values(10, "KitchenA", "Russia");
 
-create table porodazhi (id int not null primary key, pokupatel int, proizvoditel int,  produkt int, stoimost int, data varchar(100), mesto_vidachi int);
+create table porodazhi (id int not null primary key, pokupatel int, proizvoditel int, produkt int, stoimost int, data varchar(100), mesto_vidachi int PRIMARY KEY pokupatel, FOREIGN KEY pokupatel REFERENCES pokupatel (FIO));
 
-insert into porodazhi values(1, "" , "", "", "", "", "");
-insert into porodazhi values(2, "" , "", "", "", "", "");
-insert into porodazhi values(3, "" , "", "", "", "", "");
-insert into porodazhi values(4, "" , "", "", "", "", "");
-insert into porodazhi values(5, "" , "", "", "", "", "");
-insert into porodazhi values(6, "" , "", "", "", "", "");
-insert into porodazhi values(7, "" , "", "", "", "", "");
-insert into porodazhi values(8, "" , "", "", "", "", "");
-insert into porodazhi values(9, "" , "", "", "", "", "");
-insert into porodazhi values(10, "" , "", "", "", "", "");
