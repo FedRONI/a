@@ -41,7 +41,7 @@ create table proizvoditel (id int not null primary key, name varchar(100), stran
 insert into proizvoditel values(1, "ASUS", "USA");
 insert into proizvoditel values(2, "Addle", "USA");
 insert into proizvoditel values(3, "Xaimi", "China");
-insert into proizvoditel values(4, Soni", "Japan");
+insert into proizvoditel values(4, "Soni", "Japan");
 insert into proizvoditel values(5, "VARMILO", "China");
 insert into proizvoditel values(6, "Samsing", "Korea");
 insert into proizvoditel values(7, "Huawei", "China");
