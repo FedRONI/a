@@ -6,7 +6,7 @@ insert into prodykti values(1, "Computer", "70000");
 insert into prodykti values(2, "iPhune", "43999");
 insert into prodykti values(3, "mi band 12",  "6399");
 insert into prodykti values(4, "PlayStachon X", "39000");
-insert into prodykti values(5, "gaming keyboard",, "9000");
+insert into prodykti values(5, "gaming keyboard", "9000");
 insert into prodykti values(6, "washing machine", "29899");
 insert into prodykti values(7, "robot pilesos", "16000");
 insert into prodykti values(8, "FullHD monitor", "4500");
