@@ -51,3 +51,12 @@ insert into proizvoditel values(10, "KitchenA", "Russia");
 
 create table porodazhi (id int not null primary key, pokupatel int, proizvoditel int, produkt int, stoimost int, data varchar(100), mesto_vidachi int PRIMARY KEY pokupatel, FOREIGN KEY pokupatel REFERENCES pokupatel (FIO));
 
+6. Создание новой таблицы
+CREATE TABLE table_name1 (
+  col_name1 col_type1,
+  col_name2 col_type2,
+  col_name3 col_type3
+  PRIMARY KEY (col_name1),
+  FOREIGN KEY (col_name1) REFERENCES table_name2 (col_name2));
+
+
