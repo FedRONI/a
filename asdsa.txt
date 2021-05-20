@@ -51,12 +51,16 @@ insert into proizvoditel values(10, "KitchenA", "Russia");
 
 create table prodazhi (id int not null primary key, pokupatel int, proizvoditel int, produkt int, data varchar(100), mesto_vidachi int);
 
-6. Создание новой таблицы
-CREATE TABLE table_name1 (
-  col_name1 col_type1,
-  col_name2 col_type2,
-  col_name3 col_type3
-  PRIMARY KEY (col_name1),
-  FOREIGN KEY (col_name1) REFERENCES table_name2 (col_name2));
+insert into prodazhi values (1, 10, 1, 1, "12/05/2021", 2);
+insert into prodazhi values (2, 5, 8, 8, "03/01/2019", 1);
+insert into prodazhi values (3, 3, 9, 9, "01/09/2020", 3);
+insert into prodazhi values (4, 7, 6, 6, "04/01/2020", 9);
+insert into prodazhi values (5, 4, 4, 4, "04/04/2021", 4);
+insert into prodazhi values (6, 8, 7, 7, "02/07/2021", 5);
+insert into prodazhi values (7, 5, 9, 9, "11/09/2021", 10);
+insert into prodazhi values (8, 2, 5, 5, "27/02/2020", 7);
+insert into prodazhi values (9, 1, 10, 10, "02/04/2021", 8);
+insert into prodazhi values (10, 9, 2, 2, "17/07/2020", 6);
+
 
 
