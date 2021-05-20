@@ -49,7 +49,7 @@ insert into proizvoditel values(8, "AOU", "USA");
 insert into proizvoditel values(9, "Logigech", "USA");
 insert into proizvoditel values(10, "KitchenA", "Russia");
 
-create table porodazhi (id int not null primary key, pokupatel int, proizvoditel int, produkt int, stoimost int, data varchar(100), mesto_vidachi int);
+create table prodazhi (id int not null primary key, pokupatel int, proizvoditel int, produkt int, data varchar(100), mesto_vidachi int);
 
 6. Создание новой таблицы
 CREATE TABLE table_name1 (
