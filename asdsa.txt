@@ -51,7 +51,7 @@ insert into proizvoditel values(8, "AOU", "USA");
 insert into proizvoditel values(9, "Logigech", "USA");
 insert into proizvoditel values(10, "KitchenA", "Russia");
 
-create table prodazhi (id int not null primary key, pokupatel int, proizvoditel int, produkt int, data varchar(100), mesto_vidachi int);
+create table prodazhi (id int not null primary key, pokupatel int, proizvoditel int, prodykt int, data varchar(100), mesto_vidachi int);
 
 insert into prodazhi values (1, 10, 1, 1, "12/05/2021", 2);
 insert into prodazhi values (2, 5, 8, 8, "03/01/2019", 1);
@@ -65,4 +65,4 @@ insert into prodazhi values (9, 1, 10, 10, "02/04/2021", 8);
 insert into prodazhi values (10, 9, 2, 2, "17/07/2020", 6);
 
 
-
+select * from mesto_vidachi, prodazhi, pokupatel, prodykt, proizvoditel where prodazhi.pokupatel = pokupatel.id and prodazhi.proizvoditel = proizvoditel.id and prodazhi.prodykt = prodykt.id and prodazhi.mesto_vidachi = mesto_vidachi.id;
