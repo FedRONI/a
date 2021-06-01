@@ -32,7 +32,7 @@ insert into pokupatel values(1, "A.K.Lomonosov", "78005553535");
 insert into pokupatel values(2, "A.S.Evgeniev", "77598042816");
 insert into pokupatel values(3, "V.R.Sirov", "77611047038");
 insert into pokupatel values(4, "L.A.Mironova", "75818893741");
-insert into pokupatel values(5, "H. F. Artuev", "79713830001");
+insert into pokupatel values(5, "H.F.Artuev", "79713830001");
 insert into pokupatel values(6, "J.O.Speenov", "71598753575");
 insert into pokupatel values(7, "A.A.Dizoffovna", "75478918489");
 insert into pokupatel values(8, "A.S.Sodin", "72878849340");
