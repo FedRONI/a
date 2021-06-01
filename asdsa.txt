@@ -65,4 +65,4 @@ insert into prodazhi values (9, 1, 10, 10, "02/04/2021", 8);
 insert into prodazhi values (10, 9, 2, 2, "17/07/2020", 6);
 
 
-select * from mesto_vidachi, prodazhi, pokupatel, prodykt, proizvoditel where prodazhi.pokupatel = pokupatel.id and prodazhi.proizvoditel = proizvoditel.id and prodazhi.prodykt = prodykt.id and prodazhi.mesto_vidachi = mesto_vidachi.id;
+select prodazhi.id, mesto_vidachi.gorod, mesto_vidachi.ulitsya, mesto_vidachi.nomer_doma, prodazhi.data, pokupatel.FIO, pokupatel.nomer, prodykt.name, prodykt.stoimost, proizvoditel.name, proizvoditel.strana from mesto_vidachi, prodazhi, pokupatel, prodykt, proizvoditel where prodazhi.pokupatel = pokupatel.id and prodazhi.proizvoditel = proizvoditel.id and prodazhi.prodykt = prodykt.id and prodazhi.mesto_vidachi = mesto_vidachi.id;
